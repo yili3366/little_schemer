@@ -1,4 +1,6 @@
 #lang racket
+(provide pick)
+
 (define pick
   (lambda (n lat)
     (cond

@@ -1,7 +1,8 @@
 #lang racket
 (current-directory "/home/yijun/Nutstore/codes/program_launguage/little_schemer")
 (require "atom.scm")
- 
+
+(provide a-pair?)
 (define a-pair?
   (lambda (x)
     (cond
