@@ -1,4 +1,6 @@
 #lang racket
+(provide length)
+
 (define length
   (lambda (lat)
     (cond
